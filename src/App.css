@@ -1,12 +1,38 @@
-.App {
-  text-align: center;
-}
+/* .App {
 
-.App-logo {
+}  */
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
+.Navbar-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.Navbar-ul {
+  padding: 5px;
+  margin: 0;
+  background: chocolate;
+  text-decoration: none;
+}
+.Navbar div{
+
+}
+.Footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: chocolate;
+  padding: 10px;
+}
+.home{
+  padding: 70px;
+  backface-visibility: visible;
+  background-color: beige;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
